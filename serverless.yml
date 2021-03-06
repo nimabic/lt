@@ -44,7 +44,7 @@ functions:
       variables:
         cmd: unicom
         config: default.json
-        tasks: dailysignin,winterTwo,dxIntegralEveryDay,dailygamebox,dailylotteryintegral,dailywoTree,dailyBookRead,dailyBookMemberDay,dailyRedbagRainVideoIntegral,dailyRedbagRain,dailyBookVideo,dailyBookLuckdraw,dailyLiuLan,dailyScratchCard,dailyNcow,dailyGrabdollPage,jflottery,dailyYYY,dailyVideoScratchcard,dailyLKMH,dailyYYQ,dailyVideo,dailylottery,producGameSignin,dailycomment,dailyBookAnswer,newYearUserSign,dailyFingerSign,dailyIngots,dailyShopVideoIntegral,dailyPackageIntegral,dailyUnicomTask,olympicgame,dailyClubLottery
+        tasks: dailysignin,winterTwo,dxIntegralEveryDay,dailygamebox,dailylotteryintegral,dailywoTree,dailyBookRead,dailyBookMemberDay,dailyRedbagRainVideoIntegral,dailyRedbagRain,dailyBookVideo,dailyBookLuckdraw,dailyLiuLan,dailyScratchCard,dailyNcow,dailyGrabdollPage,jflottery,dailyYYY,dailyVideoScratchcard,dailyLKMH,dailyYYQ,dailyVideo,dailylottery,producGameSignin,dailycomment,dailyBookAnswer,newYearUserSign,dailyFingerSign,dailyIngots,dailyShopVideoIntegral,dailyPackageIntegral,dailyUnicomTask,olympicgame,dailyClubLottery,dailyNotifyReward.js
     events:
      - timer:
         name: timer
