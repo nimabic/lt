@@ -392,6 +392,7 @@ var start = async (params) => {
     ignoreRelay: true
   })
 **/
+/**
   // 定时检测流量兑换
   // 可使用 --exchangeDFlowCircle-intervalTime 1800 选项指定流量检查间隔时间，单位秒
   // 可使用 --exchangeDFlowCircle-minFlow 200 选项指定流量检查最小值
@@ -409,7 +410,7 @@ var start = async (params) => {
     startTime: 5 * 60,
     ignoreRelay: true
   })
-
+**/
   // 每日奖励信息结果推送
   if (!('asm_func' in process.env) || process.env.asm_func === 'false') {
     await scheduler.regTask('dailyNotifyReward', async (request) => {
