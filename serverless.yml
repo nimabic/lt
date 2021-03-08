@@ -49,7 +49,7 @@ functions:
      - timer:
         name: timer
         parameters:
-          cronExpression: '10 9-10 * * *'
+          cronExpression: '10 8-9 * * *'
           enable: true
   task2:
     handler: tscf.main_handler
@@ -65,7 +65,7 @@ functions:
      - timer:
         name: timer
         parameters:
-          cronExpression: '*/30 7-23 * * *'
+          cronExpression: '*/30 6-22 * * *'
           enable: true
   task3:
     handler: tscf.main_handler
@@ -81,7 +81,7 @@ functions:
      - timer:
         name: timer
         parameters:
-          cronExpression: '*/30 7-23 * * *'
+          cronExpression: '*/30 6-22 * * *'
           enable: true
   task4:
     handler: tscf.main_handler
@@ -97,7 +97,7 @@ functions:
      - timer:
         name: timer
         parameters:
-          cronExpression: '*/30 21-22 * * *'
+          cronExpression: '*/30 20-21 * * *'
           enable: true
   task5:
     handler: tscf.main_handler
@@ -113,7 +113,7 @@ functions:
      - timer:
         name: timer
         parameters:
-          cronExpression: '*/30 22 * * *'
+          cronExpression: '*/30 21 * * *'
           enable: true
   task6:
     handler: tscf.main_handler
@@ -129,7 +129,7 @@ functions:
      - timer:
         name: timer
         parameters:
-          cronExpression: '*/30 22 * * *'
+          cronExpression: '*/30 21 * * *'
           enable: true
   task7:
     handler: tscf.main_handler
