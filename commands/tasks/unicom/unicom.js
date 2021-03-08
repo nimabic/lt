@@ -324,13 +324,13 @@ var start = async (params) => {
     await require('./dailyUnicomTask').doIntegralAd(request, options)
     await require('./dailyUnicomTask').doTurnCard(request, options)
   }, taskOption)
-
+/**
   // 冬奥专区-赢冬奥纪念品-玩游戏抽奖
   await scheduler.regTask('olympicgame', async (request) => {
     await require('./olympicgame').doTask(request, options)
   }, taskOption)
 
-
+**/
   // 我的钱包-沃钱包-幸运抽大奖
   await scheduler.regTask('dailystw', async (request) => {
     await require('./dailystw').doTask(request, options)
