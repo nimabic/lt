@@ -49,7 +49,7 @@ functions:
      - timer:
         name: timer
         parameters:
-          cronExpression: '10 6-23 * * *'
+          cronExpression: '10 6-22 * * *'
           enable: true
   task2:
     handler: tscf.main_handler
