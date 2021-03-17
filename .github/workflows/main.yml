@@ -22,6 +22,6 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/nima789/lt.git"
-          source_branch: "maim"
+          source_branch: "main"
           destination_branch: "part1"
           github_token: ${{ secrets.PAT || github.event.client_payload.PAT }}
